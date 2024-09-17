@@ -1,0 +1,9 @@
+.about-section::before {
+    width: 50%;
+    height: 89% !important;
+    border-bottom: 753px solid #26c976;
+    border-right: 960px solid transparent;
+}
+.news-footer-wrap .fs-shape img.fst-1{
+    display: none;
+}

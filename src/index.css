@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 1200px) {
+    .cbs-content-list{
+        display: none !important;
+    }
+    
+}
+@media only screen and (min-width: 1000px)  and (max-width: 1200px) {
+  .banner-section {
+      padding-bottom: 100px !important;
+  }
+}
+
+.clients-section.style-3 .section-header .abs-title{
+  font-size:10vw !important;
+  z-index: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .banner-content{
+        margin-top:-150px !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .banner-thumb img{
+        margin-left: 150px;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .banner-thumb img{
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .about-thumb{
+    display:none !important;
+  }
+}
+@media only screen and (max-width: 1600px)
+{
+  .banner-section .cbs-content-list ul li.shape-1 {
+  top: 47vh;
+  right: 40rem;
+}
+.banner-section .cbs-content-list ul li.shape-2 {
+  top: 68vh;
+  right: 28rem;
+}
+
+.banner-section .cbs-content-list ul li.shape-3 {
+  top: 50vh;
+  right: 1rem;
+}
+.banner-section .cbs-content-list ul li.shape-4 {
+  top: 24%;
+  right: 3rem;
+}
+.banner-section .cbs-content-list ul li.shape-5 {
+  top: 72%;
+  right: 25rem;
+}
+}
+@media (min-width: 1600px) {
+  .banner-section .all-shapes {
+      right: 5% !important;
+  }
+  .banner-thumb img{
+    margin-left:18vw;
+  }
+}
+.menu-item-has-children>a::before,.menu-item-has-children>a::after{
+    display: none !important;
+}
+
+.course-inner{
+    border-radius: 20px !important;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url('assets/Montserrat-Regular.ttf');
+  }
+  
+  * {
+    font-family: myFirstFont !important;
+  }
+  .about-section .about-right .section-wrapper ul li{
+    padding: 5px 0px !important;
+  }
+  .instructor-item:hover{
+    height:100% !important;
+    transition: all 1s ease;
+  }
+  .instructor-item .desc{
+    display: none;
+  }
+  .instructor-item:hover .desc{
+    display: unset;
+  }
+  .instructor-item .desc{
+    font-size: 15px;
+    text-align: justify !important;
+  }
+  .course-item .course-inner .course-content .course-footer {
+    border-top: 1px solid black;
+}
+.about-section .about-right .section-wrapper ul li .sr-right h5{
+  text-wrap: wrap;
+}
+::placeholder{
+  color:black !important;
+}
+input,select{
+  border-color:black !important;
+}
+.banner-section .cbs-content-list ul li.shape-1 {
+  top: 47vh;
+  right: 40rem;
+}
+.banner-section .cbs-content-list ul li.shape-2 {
+  top: 68vh;
+  right: 28rem;
+}
+
+.banner-section .cbs-content-list ul li.shape-3 {
+  top: 50vh;
+  right: 1rem;
+}
+.banner-section .cbs-content-list ul li.shape-4 {
+  top: 24%;
+  right: 3rem;
+}
+.banner-section .cbs-content-list ul li.shape-5 {
+  top: 72%;
+  right: 25rem;
+}
+
+.footer-bottom{
+  padding: 15px 0;
+}
+.header-wrapper .menu-area .ellepsis-bar{
+  display: none;
+}
+.menu-area .signup{
+  padding: 10px  ;
+  display: unset !important;
+}
+.contact-content p{
+  word-wrap: break-word !important;
+    word-break: break-all !important;
+    word-break: break-word !important;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .header-wrapper .logo {
+      width: 230px !important;
+  }
+}
+@media (min-width: 992px) {
+.student-feedbak-section{
+  padding: 147px 0;
+}
+}
+.all-shapes{
+  display: none !important;
+}
+.banner-section .cbs-content-list{
+  display: none !important;
+}
