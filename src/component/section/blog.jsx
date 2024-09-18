@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import icon from "../../assets/images/IMG_2513.png";
-
+import { ShowMore } from '@re-dev/react-truncate'
 const subTitle = "FROM OUR BLOG POSTS";
 const title = "Articles From Resource Library";
 
@@ -39,7 +39,7 @@ const blogList = [
     },
 ]
 
-const Blog = ({id, text, amountOfWords = 36}) =>  {
+const Blog = () =>  {
     return (
         <div className="blog-section padding-tb section-bg" id="blog">
             <div className="container">
@@ -59,7 +59,9 @@ const Blog = ({id, text, amountOfWords = 36}) =>  {
                                         <div className="post-content">
                                             <h4>{val.title}</h4>
                                             
-                                            <p style={{textAlign:"left",fontSize:"16px"}}>{val.desc}</p>
+                                            <ShowMore lines={3}
+                                            
+                                            ><p style={{textAlign:"left",fontSize:"16px"}}>{val.desc}</p></ShowMore>
                                         </div>
                                         {/*<div className="course-footer">
                                                 <div className="course-author">
