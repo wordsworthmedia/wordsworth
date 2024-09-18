@@ -171,3 +171,10 @@ input,select{
 .banner-section .cbs-content-list{
   display: none !important;
 }
+.post-item .post-inner .post-content h4{
+  text-overflow: unset !important;
+  -webkit-box-orient: horizontal !important;
+}
+span a{
+  color: #f16126 !important;
+}

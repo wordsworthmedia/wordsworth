@@ -31,7 +31,7 @@ const achieveList = [
         title: 'Start Teaching Today',
         desc: 'Unleash Your Teaching Potential at WordsWorth! Join us in shaping young minds and making a real impact',
         btnText: 'Become An Instructor',
-        siteLink: '/bookdemo',
+        siteLink: 'https://wa.link/con324',
     },
     {
         imgUrl: 'assets/images/achive/02.png',

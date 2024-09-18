@@ -40,7 +40,7 @@ const courseList = [
         authorImgAlt: 'course author rajibraj91 rajibraj',
         authorName: 'Sonal Agarwal',
         btnText: 'Enroll Now',
-        def:'● Unlock word to Enhance\n\n● Build solid foundation in Math\n\n',
+        def:'● Unlock word to Enhance\n\n● Build solid foundation in Math\n\n● Excel in complex calculations',
     },
     {
         imgUrl: 'assets/images/course/30.jpg',

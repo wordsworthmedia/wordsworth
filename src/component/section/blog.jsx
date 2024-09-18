@@ -33,7 +33,7 @@ const blogList = [
         title: 'Closing the Gaps: The Role of Online Learning in Enhancing the Traditional Education System',
         author: 'Begrass Tyson',
         date: 'April 23,2022',
-        desc: 'Online learning is transforming education by addressing many of the challenges found in traditional classrooms. It offers flexible alternatives to rigid curricula, allowing students to learn at their own pace and explore subjects that interest them. By breaking down geographic barriers, online education brings quality learning to students no matter where they live. It also shifts away from the one-size-fits-all approach, offering personalized content that meets individual needs. With its accessibility and adaptability, online learning complements the traditional system, closing gaps and ensuring that every student has a chance to succeed.At Words Worth, we embrace online learning to empower students with unique, flexible, and engaging opportunities to excel beyond the classroom.',
+        desc: 'Online learning is transforming education by addressing many of the challenges found in traditional classrooms. It offers flexible alternatives to rigid curriculam, allowing students to learn at their own pace and explore subjects that interest them. By breaking down geographic barriers, online education brings quality learning to students no matter where they live. It also shifts away from the one-size-fits-all approach, offering personalized content that meets individual needs. With its accessibility and adaptability, online learning complements the traditional system, closing gaps and ensuring that every student has a chance to succeed.At Words Worth, we embrace online learning to empower students with unique, flexible, and engaging opportunities to excel beyond the classroom.',
         btnText: 'Read more',
         commentCount: '6',
     },
@@ -54,7 +54,7 @@ const Blog = () =>  {
                                 <div className="post-item">
                                     <div className="post-inner">
                                         <div className="post-thumb">
-                                            <Link to="/blog-single"><img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} /></Link>
+                                            <Link to="#"><img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} /></Link>
                                         </div>
                                         <div className="post-content">
                                             <h4>{val.title}</h4>
