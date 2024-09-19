@@ -54,7 +54,7 @@ const Blog = () =>  {
                                 <div className="post-item">
                                     <div className="post-inner">
                                         <div className="post-thumb">
-                                            <Link to="#"><img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} /></Link>
+                                            <img src={`${val.imgUrl}`} alt={`${val.imgAlt}`} />
                                         </div>
                                         <div className="post-content">
                                             <h4>{val.title}</h4>
